@@ -112,3 +112,6 @@ footer{font-size:13px}footer strong{font-size:24px}
 .hero-full .hero-description{margin-bottom:34px}
 .hero-full .hero-actions{gap:30px}
 @media(max-width:640px){.hero-full .hero-title h1{margin-bottom:22px}.hero-full .hero-description{margin-bottom:26px}.hero-full .hero-actions{gap:22px}}
+
+.facebook-link{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:6px 12px;border:1px solid #ffffff40;border-radius:6px;font-size:12px;transition:background .2s,border-color .2s}
+.facebook-link:hover{background:#ffffff12;border-color:#ffffff80}
