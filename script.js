@@ -46,3 +46,10 @@ if (callbackDate) {
   const part = (type) => parts.find((item) => item.type === type).value;
   callbackDate.min = part('year') + '-' + part('month') + '-' + part('day');
 }
+
+const siteHeader = document.querySelector('.site-header');
+if (siteHeader) {
+  const updateHeader = () => siteHeader.classList.toggle('scrolled', window.scrollY > 16);
+  window.addEventListener('scroll', updateHeader, { passive: true });
+  updateHeader();
+}
